@@ -1,0 +1,418 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width:0px) and (max-width:319.5px) {
+    .container{
+        /* height: 100vh; */
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        gap:6vw;
+        padding: 6vw 4vw 2vw 4vw;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.782)),url("/images/Hanuman.jpg");
+        background-repeat: no-repeat;
+        background-position: center 0px;
+        background-size: cover;
+        color:whitesmoke;
+    
+    }
+    .container h1{
+        /* border:2px solid yellow; */
+        font-size: 18vw;
+        text-align: center;
+    }
+    .mala-container{
+        /* border:2px solid hotpink; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1vw;
+        
+    
+    }
+    .mala-container #mala-count{
+        /* border:2px solid yellow; */
+        height: 25vw;
+        width:36vw;
+        font-size: 20vw;
+        text-align: center;
+        /* border:2px solid white; */
+        border-radius: 1vw;
+        box-shadow: 5px 3px 10px white;
+    
+    }
+    .mala-container h2{
+        font-size: 16vw;
+    }
+    .mala-container h3{
+        display: inline-block;
+        font-size: 8.5vw;
+        margin-right: 1vw;
+        
+    }
+    .mala-container #number-of-mala{
+        display: inline-block;
+        font-size: 8.5vw;
+        
+    }
+    button{
+        width:60vw;
+        height: 17vw;
+        background-color: none;
+        border: none;
+        outline: none;
+        font-size: 9vw;
+    }
+    button:hover{
+        box-shadow: 0px 0px 7px 3px gray;
+        
+    }
+    #counter-inc{
+        background-color: #95d03a;
+    }
+    #counter-inc:hover{
+        background-color: #b3fa48;
+    }
+    #counter-dec{
+        background-color: #cb2027;
+    }
+    #counter-dec:hover{
+        background-color: #ff3e45;
+        
+    }
+    #reset{
+        background-color:#1197fd ;
+    
+    }
+    #reset:hover{
+        background-color:  #55acee;
+    }
+    
+    #reset-all{
+        background-color: #6e6d70;
+        
+    }
+    #reset-all:hover{
+        background-color: #949495;
+        /* box-shadow: 0px 0px 7px 2px white; */
+    
+    }
+    
+}
+
+@media screen and (min-width:319.5px) and (max-width:468.5px) {
+    .container{
+        /* height: 100vh; */
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        gap:5vw;
+        padding: 35vw 4vw 2vw 4vw;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.782)),url("/images/Hanuman.jpg");
+        background-repeat: no-repeat;
+        background-position: center 0px;
+        background-size: cover;
+        color:whitesmoke;
+    
+    }
+    .container h1{
+        /* border:2px solid yellow; */
+        font-size: 13.9vw;
+        text-align: center;
+    }
+    .mala-container{
+        /* border:2px solid hotpink; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1vw;
+        gap:2.5vw;
+        
+    
+    }
+    .mala-container #mala-count{
+        /* border:2px solid yellow; */
+        height: 23vw;
+        width:40vw;
+        font-size: 20vw;
+        text-align: center;
+        /* border:2px solid white; */
+        border-radius: 1vw;
+        box-shadow: 5px 3px 5.5px 0.5px white;
+    
+    }
+    .mala-container h2{
+        font-size: 12.5vw;
+    }
+    .mala-container h3{
+        display: inline-block;
+        font-size: 7vw;
+        margin-right: 1vw;
+        font-style: italic;
+        
+    }
+    .mala-container #number-of-mala{
+        display: inline-block;
+        font-size: 7vw;
+        font-style: italic;
+        
+    }
+    button{
+        width:60vw;
+        height: 9vw;
+        background-color: none;
+        border: none;
+        outline: none;
+        font-size: 5vw;
+    }
+    button:hover{
+        box-shadow: 0px 0px 7px 1px rgb(196, 195, 195);
+        transform: scale(1.02);
+        
+    }
+    #counter-inc{
+        background-color: #95d03a;
+    }
+    #counter-inc:hover{
+        background-color: #b3fa48;
+    }
+    #counter-dec{
+        background-color: #cb2027;
+    }
+    #counter-dec:hover{
+        background-color: #ff3e45;
+        
+    }
+    #reset{
+        background-color:#1197fd ;
+    
+    }
+    #reset:hover{
+        background-color:  #44aeff;
+    }
+    
+    #reset-all{
+        background-color: #6e6d70;
+        
+    }
+    #reset-all:hover{
+        background-color: #949495;
+        /* box-shadow: 0px 0px 7px 2px white; */
+    
+    }
+    
+}
+
+@media screen and (min-width:468.5px) and (max-width:768.5px) {
+    .container{
+        /* height: 100vh; */
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        gap:3vw;
+        padding: 6vw 4vw 2vw 4vw;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.782)),url("/images/Hanuman.jpg");
+        background-repeat: no-repeat;
+        background-position: center 0px;
+        background-size: cover;
+        color:whitesmoke;
+    
+    }
+    .container h1{
+        /* border:2px solid yellow; */
+        font-size: 10vw;
+        text-align: center;
+    }
+    .mala-container{
+        /* border:2px solid hotpink; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1vw;
+        gap:2vw;
+        
+    
+    }
+    .mala-container #mala-count{
+        /* border:2px solid yellow; */
+        height: 10.5vw;
+        width:20vw;
+        font-size: 9vw;
+        text-align: center;
+        /* border:2px solid white; */
+        border-radius: 1vw;
+        box-shadow: 5px 3px 10px white;
+    
+    }
+    .mala-container h2{
+        font-size: 8vw;
+    }
+    .mala-container h3{
+        display: inline-block;
+        font-size: 5vw;
+        margin-right: 1vw;
+        font-style: italic;
+        
+    }
+    .mala-container #number-of-mala{
+        display: inline-block;
+        font-size: 5vw;
+        font-style: italic;
+        
+    }
+    button{
+        width:60vw;
+        height: 6.5vw;
+        background-color: none;
+        border: none;
+        outline: none;
+        font-size: 4vw;
+    }
+    button:hover{
+        box-shadow: 0px 0px 7px 1px rgb(196, 195, 195);
+        transform: scale(1.02);
+        
+    }
+    #counter-inc{
+        background-color: #95d03a;
+    }
+    #counter-inc:hover{
+        background-color: #b3fa48;
+    }
+    #counter-dec{
+        background-color: #cb2027;
+    }
+    #counter-dec:hover{
+        background-color: #ff3e45;
+        
+    }
+    #reset{
+        background-color:#1197fd ;
+    
+    }
+    #reset:hover{
+        background-color:  #44aeff;
+    }
+    
+    #reset-all{
+        background-color: #6e6d70;
+        
+    }
+    #reset-all:hover{
+        background-color: #949495;
+        /* box-shadow: 0px 0px 7px 2px white; */
+    
+    }
+    
+}
+@media screen and (min-width:768.5px){
+    .container{
+        /* height: 100vh; */
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        gap:1.5vw;
+        padding: 10vw 4vw 2vw 4vw;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.782)),url("/images/Hanuman.jpg");
+        background-repeat: no-repeat;
+        background-position: center 0px;
+        background-size: cover;
+        color:whitesmoke;
+    
+    }
+    .container h1{
+        /* border:2px solid yellow; */
+        font-size: 6vw;
+        text-align: center;
+    }
+    .mala-container{
+        /* border:2px solid hotpink; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1vw;
+        gap:1vw;
+        margin-bottom: 2vw;
+        
+    
+    }
+    .mala-container #mala-count{
+        /* border:2px solid yellow; */
+        height: 6vw;
+        width:20vw;
+        font-size: 5vw;
+        text-align: center;
+        /* border:2px solid white; */
+        border-radius: 1vw;
+        box-shadow: 5px 3px 10px white;
+    
+    }
+    .mala-container h2{
+        font-size: 5vw;
+    }
+    .mala-container h3{
+        display: inline-block;
+        font-size: 3.5vw;
+        margin-right: 1vw;
+        font-style: italic;
+        
+    }
+    .mala-container #number-of-mala{
+        display: inline-block;
+        font-size: 3.5vw;
+        font-style: italic;
+        
+    }
+    button{
+        width:60vw;
+        height: 4.2vw;
+        background-color: none;
+        border: none;
+        outline: none;
+        font-size: 3vw;
+    }
+    button:hover{
+        box-shadow: 0px 0px 7px 1px rgb(196, 195, 195);
+        transform: scale(1.02);
+        
+    }
+    #counter-inc{
+        background-color: #95d03a;
+    }
+    #counter-inc:hover{
+        background-color: #b3fa48;
+    }
+    #counter-dec{
+        background-color: #cb2027;
+    }
+    #counter-dec:hover{
+        background-color: #ff3e45;
+        
+    }
+    #reset{
+        background-color:#1197fd ;
+    
+    }
+    #reset:hover{
+        background-color:  #44aeff;
+    }
+    
+    #reset-all{
+        background-color: #6e6d70;
+        
+    }
+    #reset-all:hover{
+        background-color: #949495;
+        /* box-shadow: 0px 0px 7px 2px white; */
+    
+    }
+    
+}
+
