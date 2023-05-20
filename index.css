@@ -13,7 +13,7 @@
         align-items:center;
         gap:6vw;
         padding: 6vw 4vw 2vw 4vw;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.782)),url("/images/Hanuman.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.782)),url("Hanuman.jpg");
         background-repeat: no-repeat;
         background-position: center 0px;
         background-size: cover;
